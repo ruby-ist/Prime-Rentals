@@ -1,0 +1,394 @@
+body{
+	font-family: 'Dosis', sans-serif;
+	margin-top: 8vw;
+}
+
+a, a:hover, a:active{
+	text-decoration: none;
+	color: inherit;
+}
+
+nav{
+	padding: 2vw 3vw;
+	background: #2C394B;
+	box-shadow: 0 5px 50px -10px #000;
+	position: fixed;
+	width: 100vw;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+
+nav h1{
+	display: inline-block;
+	font-family: 'Righteous', cursive;
+	color: #FF4C29;
+}
+
+nav ul{
+	list-style: none;
+	display: inline;
+	font-size: 2vw;
+	color: #fff;
+	position: absolute;
+	right: 2vw;
+}
+
+nav li{
+	display: inline-block;
+	margin: 0 1vw;
+}
+
+nav li:hover{
+	color: #FF4C29;
+}
+
+.signin{
+	background-color: #FF4C29;
+	font-size: 1.8vw;
+	padding: 5px 1.5vw;
+	border: 2px solid #082032;
+	border-radius: 15px;
+	font-weight: 500;
+}
+
+.signin:focus{
+	color: #FFE6E6;
+}
+
+.slogans{
+	width: 55vw;
+	display: inline-block;
+	padding: 10vw 8vw;
+}
+
+.slogan{
+	font-family: 'Stardos Stencil', cursive;
+	color:#082032;
+	font-size: 3.5vw;
+}
+
+.punchline{
+	color: #334756;
+}
+
+.find-button{
+	background-color: #FF4C29;
+	font-size: 1.8vw;
+	border: 1px solid #2C394B;
+	font-weight: 600;
+	color: #082032;
+	border-radius: 4px;
+	margin-top: 2vw;
+	padding: 0.8vw 2vw;
+}
+
+.find-button:focus{
+	background-color: #FFE6E6;
+	color: #FF4C29;
+	border-color: #FF4C29;
+}
+
+.car{
+	display: inline-block;
+	height: 43vw;
+	width: 43vw;
+	position: absolute;
+	top: 4vw;
+	right: 7vw;
+	background-image: url("images/car.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.popular{
+	background-color: #2C394B;
+	padding: 6vw 8vw 12vw;
+	text-align: center;
+	color: #FFF;
+	margin-top: 10vw;
+}
+
+.popular h1{
+	margin-bottom: 7vw;
+}
+
+.item{
+	background-color: #FFF;
+	margin: 0 auto;
+	border-radius: 15px;
+	width: 25vw;
+	color: #000;
+	text-align: left;
+	padding: 0 2vw 1vw;
+	position: relative;
+}
+
+.car-image{
+	width: 100%;
+	height: 23vw;
+	background-size: 23vw;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.car-image:hover{
+	background-size: 25vw;
+}
+
+.car-name{
+	font-size: 2vw;
+	font-weight: 600;
+	margin-bottom: 1vw;
+}
+
+.price{
+	font-size: 1.3vw;
+	font-family: 'Spectral', serif;
+	color: #334756;
+}
+
+.rent-btn{
+	padding: 0.1vw 1.1vw;
+	background-color: #FF4C29;
+	border: 2px solid #082032;
+	color: #334756;
+	border-radius: 10px;
+	font-size: 1.8vw;
+	font-weight: 600;
+	position: absolute;
+	bottom: 2vw;
+	right: 3vw;
+}
+
+.rent-btn:hover{
+	color: #FFE6E6;
+	font-weight: 500;
+}
+
+.centers{
+	background-color: #FF4C29AA;
+	padding: 6vw 15vw 12vw;
+	text-align: center;
+}
+
+.place{
+	height: 16vw;
+	width: 21vw;
+	margin: 1vw auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #FFF;
+	font-weight: 500;
+	font-size: 2vw;
+	padding-top: 10vw;
+	border: 2px solid #2C394B;
+}
+
+.place:hover{
+	color: #FF4C29;
+}
+
+.centers h1{
+	margin-bottom: 7vw;
+	color: #334756;
+}
+
+.review{
+	padding: 6vw 30vw;
+	text-align: center;
+	margin-bottom: 25vw;
+}
+
+.review h1{
+	margin-bottom: 8vw;
+	color: #FF4C29;
+}
+
+.quote{
+	background-color: #33475622;
+	border-radius: 15px;
+	padding: 3vw 5vw;
+	position: relative;
+}
+
+.sentence{
+	font-size: 2.5vw;
+	font-family: 'Patrick Hand', cursive;
+}
+
+.said-by{
+	margin-top: 2vw;
+	font-size: 1.5vw;
+	color: #334756;
+	font-family: 'Special Elite', cursive;
+	margin-left: 15vw;
+}
+
+.arrow{
+	position: absolute;
+	top: 100%;
+	left: 5%;
+	height: 4vw;
+	width: 2.2vw;
+	border-bottom-right-radius: 150%;
+	background-color: #33475622;
+}
+
+.customer{
+	position: absolute;
+	top: 140%;
+	left: -20%;
+	width: 15vw;
+	height: 15vw;
+	background-image: url('images/michael-bay.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: 4px solid #FF4C29;
+	border-radius: 50%;
+}
+
+footer{
+	width: 100vw;
+	padding: 6vw 15vw 3vw;
+	color: #FFFFFF;
+	background-image: -webkit-linear-gradient(#2C394B88,#2C394B88), url('images/footer.jpeg');
+	text-align: center;
+	font-size: 1.5vw;
+}
+
+hr{
+	margin: 3vw 0;
+}
+
+.copyrights{
+	font-size: 1vw;
+	color: #EDEDED;
+	font-family: 'Spectral', serif;
+}
+
+
+
+
+/*Contact.html CSS*/
+
+.contact{
+	text-align: center;
+	padding: 10vw 25vw;
+}
+
+.contact h1{
+	color: #FF4C29;
+}
+
+.sub{
+	color: #334756;
+	margin-bottom: 3vw;
+}
+
+.card{
+	margin: 2vw 0;
+	border: 2px solid #FF4C29;
+	color: #FF4C29AA;
+}
+
+.card:hover{
+	box-shadow: 0 0 15px #AAA;
+	color: #FF4C29;
+}
+
+.icon{
+	font-size: 5vw;
+	color: inherit;
+}
+
+
+.details{
+	padding-top: 2vw;
+	color: #2C394B;
+	font-weight: 500;
+}
+
+.contact .col-8{
+	border-left: 2px solid #FF4C29;
+}
+
+address{
+	text-align: left;
+	display: inline-block;
+	margin: auto;
+}
+
+/*rent.html CSS*/
+
+.rent{
+	padding: 8vw 15vw;
+	font-size: 1.3vw;
+}
+
+.rent form{
+	padding: 2vw 3vw;
+	border: 1px solid black;
+	box-shadow: 0 0 25px #AAA;
+	border-radius: 20px;
+}
+
+.rent label{
+	margin-bottom: 0.5vw;
+	color: #FF4C29;
+}
+
+.rent .row{
+	border-bottom: 1px solid #CCC;
+	padding: 3vw 2vw;
+}
+
+.rent input, .rent textarea{
+	margin-bottom: 1vw;
+	width: 80%;
+	padding: 0.5vw;
+	border-radius: 5px;
+	border: 1px solid #444;
+}
+
+.rent input:focus, .rent textarea:focus{
+	outline: none;
+	border: 1px solid #FF4C29;
+}
+
+
+.rent textarea#address{
+	height: 50%;
+}
+
+.rent textarea#reason{
+	height: 90%;
+}
+
+#age{
+	width: 20%;
+}
+
+.proceed-btn{
+	margin-top: 40%;
+	background-color: #FF4C29;
+	font-size: 1.8vw;
+	border: 1px solid #2C394B;
+	font-weight: 400;
+	color: #082032;
+	border-radius: 4px;
+	padding: 0.8vw 2vw;
+}
+
+.proceed-btn:focus{
+	background-color: #FFE6E6;
+	color: #FF4C29;
+	border-color: #FF4C29;
+}
+
+
+
+
